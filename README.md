@@ -1,4 +1,4 @@
-# Whois Lookup Scraper (Python)
+# Whois Lookup Scraper
 
 ## Overview
 This Apify actor retrieves Whois information for a list of domains provided as input. It is built with Python and leverages the `whois` library to perform lookups. The results are output to the Apify dataset, making it easy to automate bulk Whois data collection for research, monitoring, or reporting purposes.
