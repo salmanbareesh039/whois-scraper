@@ -1,0 +1,18 @@
+{
+  "title": "Input schema for Whois Lookup Scraper",
+  "type": "object",
+  "properties": {
+    "domains": {
+      "title": "Domains",
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of domains to lookup."
+    }
+  },
+  "required": ["domains"],
+  "examples": [
+    {
+      "domains": ["example.com", "apify.com", "github.com"]
+    }
+  ]
+} 
