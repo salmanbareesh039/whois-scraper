@@ -6,7 +6,6 @@
     "domains": {
       "title": "Domains",
       "type": "array",
-      "items": { "type": "string" },
       "description": "List of domains to lookup",
       "editor": "textarea",
       "prefill": [
