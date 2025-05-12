@@ -16,14 +16,5 @@
       ]
     }
   },
-  "required": ["domains"],
-  "examples": [
-    {
-      "domains": [
-        "example.com",
-        "apify.com",
-        "github.com"
-      ]
-    }
-  ]
+  "required": ["domains"]
 }
