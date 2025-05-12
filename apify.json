@@ -1,0 +1,22 @@
+{
+  "name": "whois-lookup-scraper",
+  "version": "0.1",
+  "description": "Takes a list of domains and returns their Whois info using Python.",
+  "main": "main.py",
+  "actorSpecification": 1,
+  "title": "Whois Lookup Scraper (Python)",
+  "input": {
+    "title": "Input",
+    "type": "object",
+    "properties": {
+      "domains": {
+        "title": "Domains",
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of domains to lookup."
+      }
+    },
+    "required": ["domains"]
+  },
+  "categories": ["Scraper", "Whois", "Domains"]
+} 
