@@ -7,7 +7,7 @@
       "title": "Domains",
       "type": "array",
       "description": "List of domains to lookup",
-      "editor": "textarea",
+      "editor": "stringList",
       "prefill": [
         "example.com",
         "apify.com",
